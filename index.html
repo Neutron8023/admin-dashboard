@@ -11,29 +11,68 @@
             href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
             rel="stylesheet"
         />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
     </head>
     <body>
-        <aside>
-            <h1>Dashboard</h1>
+        <aside class="aside-navigation">
+            <h1 class="aside-navigation__title">
+                <i class="fa-solid fa-table-columns"></i>Dashboard
+            </h1>
             <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Profile</a></li>
-                    <li><a href="#">Messages</a></li>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Tasks</a></li>
-                    <li><a href="#">Communities</a></li>
+                <ul class="menu">
+                    <li>
+                        <a href="#"><i class="fa-solid fa-house"></i>Home</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            ><i class="fa-sharp fa-regular fa-address-card"></i
+                            >Profile</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#"
+                            ><i class="fa-solid fa-message"></i>Messages</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-clock"></i>History</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-file"></i>Tasks</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            ><i class="fa-solid fa-users"></i>Communities</a
+                        >
+                    </li>
                 </ul>
-                <ul>
-                    <li><a href="#">Settings</a></li>
-                    <li><a href="#">Support</a></li>
-                    <li><a href="#">Privacy</a></li>
+                <ul class="menu">
+                    <li>
+                        <a href="#"><i class="fa-solid fa-gear"></i>Settings</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            ><i class="fa-solid fa-circle-question"></i
+                            >Support</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#"
+                            ><i class="fa-solid fa-shield"></i>Privacy</a
+                        >
+                    </li>
                 </ul>
             </nav>
         </aside>
         <header>
+            <i class="fa-solid fa-magnifying-glass"></i>
             <input type="search" />
-            <img src="" alt="" />
             <p>Morgan Oakley</p>
             <img src="" alt="" />
             <p>Hi there,</p>
@@ -99,7 +138,7 @@
                 </p>
             </div>
         </main>
-        <aside>
+        <aside class="aside-main">
             <div class="announcements">
                 <h3>Annoucements</h3>
                 <div class="announcements__card">
